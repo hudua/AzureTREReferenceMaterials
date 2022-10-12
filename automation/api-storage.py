@@ -1,4 +1,6 @@
-!az login --tenant 7aa7ddbc-6504-4dc8-a6e4-ff73df71c91d
+
+# need to run Az Login first
+#command line: az login --tenant 7aa7ddbc-6504-4dc8-a6e4-ff73df71c91d
 
 import sys
 
