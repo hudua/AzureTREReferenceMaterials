@@ -2,6 +2,9 @@
 # need to run Az Login first
 #command line: az login --tenant 7aa7ddbc-6504-4dc8-a6e4-ff73df71c91d
 
+#library is pip install azure-storage-file-datalake
+#will need to install Azure CLI: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+
 import sys
 
 filesystem_name = 'genomics'
