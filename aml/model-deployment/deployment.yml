@@ -1,0 +1,10 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: green
+endpoint_name: my-endpoint-alias-randomnumber
+model: azureml:tmlsmodel:3
+code_configuration:
+  code: scoring
+  scoring_script: score.py
+environment: azureml:docker-model-deployment:2
+instance_type: Standard_DS3_v2
+instance_count: 1
